@@ -1,0 +1,24 @@
+label {
+    display: block;
+}
+
+textarea {
+    display: block;
+}
+
+.comment {
+    margin: 32px 16px;
+    width: 300px;
+    background-color: azure;
+}
+
+.comment main {
+    padding: 16px;
+}
+
+.comment footer {
+    padding: 4px 8px;
+    margin: 8px;
+    background-color: #999;
+    color: #ccc;
+}

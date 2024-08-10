@@ -1,0 +1,10 @@
+
+await api. get ('/data/recipes')
+login
+await userService.login('peter@abv.bg','123') wrong password
+await userService.login('peter@abv.bg','123456') must to login and server response 200
+register
+await userService.register('peter@abv.bg','123456') a user with the same email already exists
+await userService.register('Krasi@abv.bg','123456') must to register and server response 200
+logout
+await userService.logout() must to clear localStorage

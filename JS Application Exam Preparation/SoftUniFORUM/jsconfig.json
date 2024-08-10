@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "paths": {
+            "@page": ["./node_modules/page"],
+            "@page/*": ["./node_modules/page/*"],
+            "@lit": ["./node_modules/lit-html"],
+            "@lit/*": ["./node_modules/lit-html/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
